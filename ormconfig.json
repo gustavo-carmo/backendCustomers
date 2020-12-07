@@ -1,0 +1,12 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "financial_system",
+  "useUnifiedTopology": true,
+  "entities": ["./src/modules/**/typeorm/schemas/*.ts"],
+  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+  }
+}
