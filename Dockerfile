@@ -5,4 +5,4 @@ RUN npm install
 RUN npm build
 COPY . /var/app
 
-CMD ["node", "dist/shared/infra/http/server.js"]
+# CMD ["node", "dist/shared/infra/http/server.js"]
